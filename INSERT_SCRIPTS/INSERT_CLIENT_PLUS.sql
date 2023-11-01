@@ -1,20 +1,6 @@
 -- Cliente Plus 1
 INSERT INTO
-    TenerifePlus
-VALUES
-    (
-        1,
-        'Laura',
-        'Hernández',
-        'Jiménez',
-        'laura.hernandez@example.com',
-        '2023-10-30'
-    );
-
--- Cliente Plus 2
-INSERT INTO
     TenerifePlus (
-        plus_client_id,
         name,
         last_name_1,
         last_name_2,
@@ -23,46 +9,34 @@ INSERT INTO
     )
 VALUES
     (
-        2,
+        'Laura',
+        'Hernández',
+        'Jiménez',
+        'laura.hernandez@example.com',
+        '2023-10-30'
+    ),
+    (
         'Francisco',
         'Martínez',
         'López',
         'francisco.martinez@example.com',
         '2023-10-29'
-    );
-
--- Cliente Plus 3
-INSERT INTO
-    TenerifePlus
-VALUES
+    ),
     (
-        3,
         'Elena',
         'Fernández',
         'García',
         'elena.fernandez@example.com',
         '2023-10-28'
-    );
-
--- Cliente Plus 4
-INSERT INTO
-    TenerifePlus
-VALUES
+    ),
     (
-        4,
         'Miguel',
         'Sánchez',
         'Pérez',
         'miguel.sanchez@example.com',
         '2023-10-27'
-    );
-
--- Cliente Plus 5
-INSERT INTO
-    TenerifePlus
-VALUES
+    ),
     (
-        5,
         'Isabel',
         'Gómez',
         'Díaz',

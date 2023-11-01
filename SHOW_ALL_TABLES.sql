@@ -1,6 +1,11 @@
 SELECT
     *
 FROM
+    Vivero;
+    
+SELECT
+    *
+FROM
     Orders;
 
 SELECT
@@ -38,7 +43,3 @@ SELECT
 FROM
     Product;
 
-SELECT
-    *
-FROM
-    Vivero;
